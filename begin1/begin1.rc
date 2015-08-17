@@ -1,0 +1,276 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\begin1.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\begin1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 begin1"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "begin1，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_BEGIN1_DIALOG DIALOGEX 0, 0, 322, 103
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "begin1"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "登录",IDC_BUTTON1,247,21,50,14
+    LTEXT           "MME地址：",IDC_STATIC,21,18,36,8,0,WS_EX_TRANSPARENT
+    LTEXT           "登陆密码：",IDC_STATIC,18,72,35,8,0,WS_EX_TRANSPARENT
+    LTEXT           "本地IP地址：",IDC_STATIC,14,43,42,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EDIT2,175,15,41,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,57,69,157,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,175,41,41,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "退出",IDC_BUTTON2,247,53,50,14
+    LTEXT           "：",IDC_STATIC,162,19,8,8
+    LTEXT           "：",IDC_STATIC,162,45,8,8
+    EDITTEXT        IDC_IPH,58,41,103,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT1,58,15,105,14,ES_AUTOHSCROLL
+END
+
+IDD_TAB1 DIALOGEX 0, 0, 544, 387
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+CAPTION "HIT"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB1,"SysTabControl32",TCS_MULTILINE | TCS_FIXEDWIDTH,10,40,523,333,WS_EX_RTLREADING
+    LTEXT           " ",IDC_STATIC,10,10,348,30,0,WS_EX_TRANSPARENT
+END
+
+IDD_MENU1 DIALOGEX 0, 0, 257, 290
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PORT13,105,175,60,15,ES_AUTOHSCROLL
+    LTEXT           "对方语音端口号",IDC_STATIC,35,177,51,8
+    EDITTEXT        IDC_IP12,105,156,60,15,ES_AUTOHSCROLL
+    LTEXT           "对方IP",IDC_STATIC,53,159,24,8
+    GROUPBOX        "静态",IDC_STATIC,25,150,153,95
+    PUSHBUTTON      "挂断",IDC_BCALLCLOSE,143,214,32,22
+    PUSHBUTTON      "语音呼",IDC_BACALL,107,214,29,22
+    PUSHBUTTON      "视频呼",IDC_BVCALL,69,214,30,22
+    EDITTEXT        IDC_PORT14,105,193,60,15,ES_AUTOHSCROLL
+    LTEXT           "对方视频端口号",IDC_STATIC,37,196,51,8
+    PUSHBUTTON      "初始化",IDC_BINIT,33,214,29,22
+    CONTROL         153,IDC_PIC1,"Static",SS_BITMAP | SS_REALSIZEIMAGE,7,7,191,129
+    PUSHBUTTON      "显示本地",IDC_BUTTON3,204,191,41,28
+    PUSHBUTTON      "显示异地",IDC_BUTTON11,204,149,40,28
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "begin1.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "begin1.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_BEGIN1_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_TAB1, DIALOG
+    BEGIN
+        LEFTMARGIN, 10
+        VERTGUIDE, 10
+        TOPMARGIN, 40
+        BOTTOMMARGIN, 373
+        HORZGUIDE, 373
+    END
+
+    IDD_MENU1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 286
+        HORZGUIDE, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "HIT10.bmp"
+IDB_BITMAP2             BITMAP                  "HIT6.bmp"
+IDB_BITMAP3             BITMAP                  "HIT.bmp"
+IDB_BITMAP4             BITMAP                  "HIT2.bmp"
+IDB_BITMAP5             BITMAP                  "HIT5.bmp"
+IDB_BITMAP6             BITMAP                  "HIT4.bmp"
+IDB_BITMAP7             BITMAP                  "HIT11.bmp"
+IDB_BITMAP8             BITMAP                  "hit12.bmp"
+IDB_BITMAP9             BITMAP                  "DA.bmp"
+IDB_BITMAP10            BITMAP                  "t2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 begin1(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\begin1.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="dll">
+      <UniqueIdentifier>{da27d6a1-c278-498b-bc58-750c2a89b11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dllc">
+      <UniqueIdentifier>{c61907e8-29f7-44dc-b651-6cc3fa3cd9a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="begin1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="begin1Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuGlobal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AMR.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AudioDecPlayThread1.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AudioDecPlayThread2.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AudioPlay1.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AudioPlay2.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AudioSample.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AudioSampleEncThread.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\config.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\dllmain.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\GlobalVariable.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\interf_h264.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\package.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\RecordReplayThread.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\SocketThread.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\VideoDecDisplayThread.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\VideoSample.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\VideoSampleEncThread.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\YUVdisplay.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\allcodecs.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\analyse.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\bitstream.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\cabac.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\cavlc.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\common.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\csp.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\dct.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\dsputil.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\encoder.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\enmacroblock.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\enset.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\error_resilience.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\eval.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\frame.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\getopt.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\golomb.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\h264.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\h264_parser.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\h264idct.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\h264pred.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\imgconvert.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AMR_dec_enc\interf_dec.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AMR_dec_enc\interf_enc.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\jrevdct.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\log.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\macroblock.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\matroska.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\mc.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\mdate.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\me.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\mem.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\mpegvideo.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\opt.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\parser.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\pixel.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\predict.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\quant.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\ratecontrol.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\rational.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\x264enc\set.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\simple_idct.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AMR_dec_enc\sp_dec.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\AMR_dec_enc\sp_enc.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\svq3.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\utils.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+    <ClCompile Include="dll\h264_dec\vp3dsp.c">
+      <Filter>dllc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="begin1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="begin1Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuGlobal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AudioDecPlayThread1.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AudioDecPlayThread2.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AudioPlay1.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AudioPlay2.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AudioSample.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AudioSampleEncThread.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\config.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\GlobalVariable.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\interf_h264.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\interf_x264.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\package.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\RecordReplayThread.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\SocketThread.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\VideoDecDisplayThread.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\VideoSample.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\VideoSampleEncThread.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\YUVdisplay.h">
+      <Filter>dll</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\analyse.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\avcodec.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\avutil.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\bitstream.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\bs.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\bswap.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\cabac.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\clip1.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\colorspace.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\common.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\common.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\crc.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\csp.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\dct.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\dsputil.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\enmacroblock.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\enset.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\eval.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\faandct.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\frame.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\getopt.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\golomb.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\h264.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\h264_parser.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\h264data.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\h264pred.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\imgconvert.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\integer.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR_dec_enc\interf_dec.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR_dec_enc\interf_enc.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR_dec_enc\interf_rom.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\internal.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\intfloat_readwrite.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\intreadwrite.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\log.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\macroblock.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\mathematics.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\matroska.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\mc.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\me.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\mem.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\mjpegenc.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\mpeg12data.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\mpegvideo.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\mpegvideo_common.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\msmpeg4.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\opt.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\parser.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\pixel.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\predict.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\quant.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\ratecontrol.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\ratecontrol.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\rational.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\rectangle.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\rl.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR_dec_enc\rom_dec.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR_dec_enc\rom_enc.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\set.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\simple_idct.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR_dec_enc\sp_dec.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR_dec_enc\sp_enc.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\stdint.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\AMR_dec_enc\typedef.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\vlc.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\x264enc\x264.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+    <ClInclude Include="dll\h264_dec\x86_cpu.h">
+      <Filter>dllc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\begin1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="DA.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT10.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT11.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="hit12.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="HIT7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="t2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\z11.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="begin1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\begin1.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="dll\MediaProcessDll.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
